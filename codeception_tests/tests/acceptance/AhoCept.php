@@ -2,7 +2,7 @@
 $I = new AcceptanceTester($scenario);
 $I->wantTo('perform actions and see result');
 $I->m('engineer');
-$I->amCalled(1);
+$I->amCalled('1');
 $I->answer('1');
 $I->am('Gentleman');
 $I->amCalled('hello');

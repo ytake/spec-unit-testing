@@ -10,11 +10,11 @@ class Crazy
 {
 
     /**
-     * @param null $string
-     * @return null|string
+     * @param $string
+     * @return string
      * @throws \Exception
      */
-    public function call($string = null)
+    public function call($string)
     {
         if (is_null($string)) {
             throw new \Exception;
@@ -25,6 +25,6 @@ class Crazy
             }
         }
 
-        return (string) $string;
+        return $string;
     }
 }
