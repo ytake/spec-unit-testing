@@ -4,11 +4,9 @@ filter:
   excluded_paths:
     - tests/*
     - spec/*
-    - features
-    - codeception_tests
+    - features/*
+    - codeception_tests/*
 tools:
-  external_code_coverage:
-    timeout: 600
   php_code_sniffer:
     config:
       standard: "PSR2"

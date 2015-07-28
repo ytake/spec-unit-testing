@@ -32,7 +32,7 @@ class FeatureContext implements Context, SnippetAcceptingContext
     }
 
     /**
-     * @Then 画面上に :arg1 と表示される
+     * @Then :arg1 を数える
      */
     public function tangXiaoNaiTian($output)
     {

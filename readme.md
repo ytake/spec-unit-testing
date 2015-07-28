@@ -3,6 +3,8 @@ PHPSpecとPHPUnitに加えて、Behat、Codeceptionを加えています。
 ひとつのクラスに対して様々なテストフレームワークの違いをお楽しみいただけます。  
 (CodeceptionはAcceptance Testsのみ)
 
+[![Build Status](https://travis-ci.org/ytake/spec-unit-testing.svg?branch=master)](https://travis-ci.org/ytake/spec-unit-testing)  
+
 ## ライブラリ
 ```json
   "require-dev": {
