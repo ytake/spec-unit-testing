@@ -1,6 +1,6 @@
 {
-  "name": "vendor_name/package_name",
-  "description": "description_text",
+  "name": "ytake/spec-unit-testing",
+  "description": "phpのいろんなテストフレームワークの違い",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
@@ -16,6 +16,9 @@
   },
   "require-dev": {
     "phpunit/phpunit": "~4.0",
-    "phpspec/phpspec": "~2.1"
+    "phpspec/phpspec": "~2.1",
+    "behat/behat": "3.*",
+    "bossa/phpspec2-expect": "*",
+    "codeception/codeception": "*"
   }
 }

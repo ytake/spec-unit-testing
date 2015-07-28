@@ -3,18 +3,18 @@
 namespace Acme;
 
 /**
- * Class Hello
+ * Class Crazy
  * @package Acme
  */
-class Hello
+class Crazy
 {
 
     /**
-     * @param $string
-     * @return string
+     * @param null $string
+     * @return null|string
      * @throws \Exception
      */
-    public function call($string)
+    public function call($string = null)
     {
         if (is_null($string)) {
             throw new \Exception;
@@ -25,6 +25,6 @@ class Hello
             }
         }
 
-        return $string;
+        return (string) $string;
     }
 }

@@ -5,12 +5,17 @@ namespace spec\Acme;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
 
-class HelloSpec extends ObjectBehavior
+/**
+ * PHPSpecが作成するクラスです
+ * Class CrazySpec
+ * @package spec\Acme
+ */
+class CrazySpec extends ObjectBehavior
 {
 
     function it_is_initializable()
     {
-        $this->shouldHaveType('Acme\Hello');
+        $this->shouldHaveType('Acme\Crazy');
     }
 
     function it_should_return_string()
