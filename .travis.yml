@@ -10,7 +10,7 @@ before_script:
 script:
     - chmod -R 777 tests/build
     - ./vendor/bin/phpunit
-    - ./vendor/bin/phpspec run -v
+    - ./vendor/bin/phpspec run
     - ./vendor/bin/behat
     - ./vendor/bin/codecept build --config=codeception_tests
     - ./vendor/bin/codecept run --config=codeception_tests
